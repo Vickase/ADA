@@ -2,3 +2,36 @@
     border: 1px solid black;
     padding: 10px 10px 10px 10px;
 }
+.centrado{
+    text-align: center;
+}
+.display{
+    display: inline-block;
+    width: 33%;
+    border: 1px solid black;
+    text-align: left;
+}
+.displayDiv{
+    
+    display: inline-block;
+    width: 100%;  
+    
+}
+.columna{
+    display: inline-block;
+    width:49%;
+    
+    vertical-align: top;
+}
+.columna2{
+    display: inline-block;
+    width:50%; 
+   
+
+}
+.parrafoDiv{
+    text-align: center;
+    height: 100px;        
+}
+
+
