@@ -13,25 +13,38 @@
 }
 .displayDiv{
     
-    display: inline-block;
+    display: flex;
+    /*flex-direction: row;*/
     width: 100%;  
+    text-align: center;
+    box-sizing: border-box;
+    
     
 }
+
 .columna{
-    display: inline-block;
-    width:49%;
-    
+    box-sizing: border-box;
+    /*display: flex;*/
+    padding:5px;
+    margin: 5px;
+    width:50%;
     vertical-align: top;
+    border: 1px solid black;
+    /*float: left;Me sale el aviso de que cancela al inline-block. y pasa a funcionar como block en vez de inline-block*/
 }
 .columna2{
-    display: inline-block;
+    box-sizing: border-box;
+    /*display: flex;*/
+    padding:5px;
+    margin: 5px;
     width:50%; 
-   
+    border: 1px solid black;
+    /*float: right;*/
 
 }
 .parrafoDiv{
     text-align: center;
-    height: 100px;        
+          
 }
 
 
