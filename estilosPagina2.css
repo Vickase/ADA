@@ -13,38 +13,45 @@
 }
 .displayDiv{
     
-    display: flex;
-    /*flex-direction: row;*/
-    width: 100%;  
+    display: block;
     text-align: center;
     box-sizing: border-box;
     
     
+    
 }
-
+img{
+    width: 30%;
+    height: 30%;
+    float: left;
+}
 .columna{
     box-sizing: border-box;
-    /*display: flex;*/
-    padding:5px;
-    margin: 5px;
     width:50%;
     vertical-align: top;
     border: 1px solid black;
-    /*float: left;Me sale el aviso de que cancela al inline-block. y pasa a funcionar como block en vez de inline-block*/
+    float: left;/*Me sale el aviso de que cancela al inline-block. y pasa a funcionar como block en vez de inline-block*/
 }
 .columna2{
     box-sizing: border-box;
-    /*display: flex;*/
-    padding:5px;
-    margin: 5px;
     width:50%; 
     border: 1px solid black;
-    /*float: right;*/
+    float: right;
 
 }
 .parrafoDiv{
     text-align: center;
           
 }
+.clearfix{
+    clear: both;
+}
+.border-radius{
+    border: 10px solid blueviolet;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
 
+}
 
